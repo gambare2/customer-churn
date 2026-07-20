@@ -1,0 +1,11 @@
+Power BI Binary Schema File Placeholder
+========================================
+Project Name: Telco Customer Churn Dashboard
+Target File: customer_churn_dashboard.pbix
+
+This file serves as the schema container placeholder for the Power BI report. 
+To build the report in Power BI Desktop:
+1. Open Power BI Desktop.
+2. Select "Get Data" -> "Text/CSV" and load "data/processed/telco_customer_churn_cleaned.csv".
+3. Configure the relationships and create the custom DAX measures detailed in "docs/project_workflow.md" or the dashboard documentation.
+4. Replicate the visual layouts shown in "powerbi/screenshots/".

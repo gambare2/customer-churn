@@ -1,0 +1,19 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Raw Datasets (ignored for git storage efficiency)
+data/raw/*.csv
+
+# System files
+.DS_Store
+Thumbs.db

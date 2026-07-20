@@ -9,7 +9,6 @@ This project performs an executive-level analysis of the **IBM Telco Customer Ch
 
 ## Folder Structure
 
-```text
 customer-churn-analysis/
 │
 ├── README.md                              # Project overview and business summary (this file)
@@ -64,8 +63,6 @@ customer-churn-analysis/
     ├── data_dictionary.md                 # Descriptions of variable constraints
     ├── sql_queries_documentation.md       # Summary mapping of the 32 queries
     └── project_workflow.md                # Data pipeline chart & DAX measure formulas
-```
-
 ---
 
 ## Key Performance Indicators (KPIs)
@@ -108,18 +105,3 @@ customer-churn-analysis/
 20. **Monthly Charges Correlation**: Churned customers have a significantly higher average monthly bill of **$74.44** compared to active customers at **$61.27**.
 21. **High Charges Density**: The highest density of churned customers is concentrated between **$75 and $95** per month, indicating that billing thresholds around $80 are sensitive pricing triggers.
 22. **Estimated LTV Differential**: Two-year contract customers represent the highest Lifetime Value (**$3,710** average cumulative billing), compared to Month-to-month contracts at **$962** average cumulative billing.
-
----
-
-## Visual Dashboard Previews
-
-### Power BI Dashboard Overview
-![Power BI Dashboard Overview](powerbi/screenshots/dashboard_overview.png)
-
-### Power BI Churn Analysis
-![Power BI Churn Analysis](powerbi/screenshots/churn_analysis.png)
-
-### Excel KPI Dashboard
-![Excel Dashboard Preview](excel/screenshots/excel_dashboard.png)
-#   c u s t o m e r - c h u r n  
- 

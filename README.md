@@ -7,24 +7,23 @@ This project performs an executive-level analysis of the **IBM Telco Customer Ch
 
 ---
 
-## Folder Structure
-
+## Folder Structure 
 customer-churn-analysis/
 │
-├── README.md                              # Project overview and business summary (this file)
-├── .gitignore                             # Git exclusions (data/raw, cached, python envs)
-├── requirements.txt                       # Project python dependency list
+├── README.md                              
+├── .gitignore                            
+├── requirements.txt                      
 │
 ├── data/
 │   ├── raw/
-│   │   └── telco_customer_churn.csv       # Original dataset downloaded from GitHub
+│   │   └── telco_customer_churn.csv       
 │   ├── processed/
 │   │   └── telco_customer_churn_cleaned.csv  # Cleaned dataset (Pandas output)
 │   └── exports/
-│       ├── churn_summary.csv              # Overall baseline indicators
-│       ├── churn_by_contract.csv          # Contract vs Churn volumes
-│       ├── churn_by_payment_method.csv    # Payment channel vs Churn metrics
-│       └── churn_by_internet_service.csv  # Broadband types vs Churn splits
+│       ├── churn_summary.csv
+│       ├── churn_by_contract.csv          
+│       ├── churn_by_payment_method.csv    
+│       └── churn_by_internet_service.csv  
 │
 ├── notebooks/
 │   └── customer_churn_analysis.ipynb      # Integrated Jupyter notebook combining ETL & EDA
@@ -37,32 +36,32 @@ customer-churn-analysis/
 │
 ├── sql/
 │   ├── 01_create_database.sql             # SQL DB Setup
-│   ├── 02_create_tables.sql               # Star Schema table definitions (Dim/Fact model)
-│   ├── 03_data_cleaning.sql               # SQL data validation and null-detection scripts
-│   ├── 04_basic_analysis.sql              # SQL Queries 1-8: Customer baselines and averages
-│   ├── 05_intermediate_analysis.sql       # SQL Queries 9-16: Intermediate segment aggregations
-│   ├── 06_advanced_analysis.sql           # SQL Queries 17-24: Window functions, deciles, and CTEs
-│   └── 07_business_queries.sql            # SQL Queries 25-32: Cohort decay, LTV and revenue losses
+│   ├── 02_create_tables.sql              
+│   ├── 03_data_cleaning.sql               
+│   ├── 04_basic_analysis.sql              
+│   ├── 05_intermediate_analysis.sql       
+│   ├── 06_advanced_analysis.sql           
+│   └── 07_business_queries.sql            
 │
 ├── excel/
-│   ├── customer_churn_analysis.xlsx       # Styled slate-blue workbook with formulas and chart
+│   ├── customer_churn_analysis.xlsx       
 │   └── screenshots/
-│       └── excel_dashboard.png            # Visual preview of the Excel dashboard
+│       └── excel_dashboard.png            
 │
 ├── powerbi/
-│   ├── customer_churn_dashboard.pbix      # Power BI schema configuration placeholder
+│   ├── customer_churn_dashboard.pbix      
 │   └── screenshots/
-│       ├── dashboard_overview.png         # Visual mockup of the BI Overview page
-│       └── churn_analysis.png             # Visual mockup of the BI Service page
+│       ├── dashboard_overview.png         
+│       └── churn_analysis.png             
 │
 ├── reports/
-│   ├── business_insights.md               # 22 detailed business suggestions
-│   └── executive_summary.md               # Financial baseline summary report
+│   ├── business_insights.md               
+│   └── executive_summary.md               
 │
 └── docs/
-    ├── data_dictionary.md                 # Descriptions of variable constraints
-    ├── sql_queries_documentation.md       # Summary mapping of the 32 queries
-    └── project_workflow.md                # Data pipeline chart & DAX measure formulas
+    ├── data_dictionary.md                 
+    ├── sql_queries_documentation.md      
+    └── project_workflow.md                
 ---
 
 ## Key Performance Indicators (KPIs)
